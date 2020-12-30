@@ -1,3 +1,5 @@
+```python
+
 import scipy.io.wavfile as wavfile
 import librosa
 
@@ -29,3 +31,5 @@ def wave_converter(filename, resampled_sr=16000, prefix="resampled_", mix2mono =
     wavfile.write(resampled_file, resampled_sr, resampled_data)
     
     print('Resampled wavefile saved to {}'.format(resampled_file))
+
+```
